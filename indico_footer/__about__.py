@@ -47,3 +47,4 @@ __version__ = '1.0.0'
 __author__ = 'Eileen Kuehn, Max Fischer'
 __email__ = 'eileen.kuehn@kit.edu'
 __copyright__ = '2018 %s' % __author__
+__keywords__ = 'indico customisation footer html plugin'
