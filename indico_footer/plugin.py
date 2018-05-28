@@ -49,9 +49,11 @@ class FooterCustomisationPlugin(IndicoPlugin):
     def extend_footer(self, sender, **kwargs):
         for setting in self.settings.get('footer_links'):
             try:
-                footer_elements.append("<a href='%s'>&nbsp;%s&nbsp;</a>" % (setting.get('link'), setting.get('name')))
+                footer_elements.append("<a href='%s' target='%s'>&nbsp;%s&nbsp;</a>" % (
+                    setting.get('link'), setting.get('target'), setting.get('name')))
             except NameError:
-                footer_elements = ["<a href='%s'>%s&nbsp;</a>" % (setting.get('link'), setting.get('name'))]
+                footer_elements = ["<a href='%s' target='%s'>%s&nbsp;</a>" % (
+                    setting.get('link'), setting.get('target'), setting.get('name'))]
         try:
             return True, 0, "</li><li>".join(footer_elements)
         except NameError:

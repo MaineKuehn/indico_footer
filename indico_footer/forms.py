@@ -20,6 +20,8 @@ def custom_string_validation(value):
 class SettingsForm(IndicoForm):
     footer_links = MultipleItemsField(_('Footer Links'), fields=[
         {'id': 'name', 'caption': _('Name'), 'required': True, 'coerce': custom_string_validation},
-        {'id': 'link', 'caption': _('Link'), 'required': True, 'coerce': custom_string_validation}],
+        {'id': 'link', 'caption': _('Link'), 'required': True, 'coerce': custom_string_validation},
+        {'id': 'target', 'caption': _('Target'), 'type': 'select', 'required': True}],
                                       description=_("Add further links to be added to the footer of Indico"),
-                                      sortable=True)
+                                      sortable=True,
+                                      choices={'target': {'_self': _('_self'), '_blank': _('_blank')}})
