@@ -38,7 +38,6 @@ setup(
         }
     },
     packages=find_packages(),
-    package_data={'indico_footer': ['templates/*.html']},
     install_requires=['indico>=2.0'],
     license='GPLv3+',
     classifiers=[
