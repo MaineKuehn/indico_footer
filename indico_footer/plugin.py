@@ -35,16 +35,12 @@ class FooterCustomisationPlugin(IndicoPlugin):
     configurable = True
     #: form for default configuration across events
     settings_form = SettingsForm
+    #: global default settings
+    default_settings = {'footer_links': []}
 
     def init(self):
         super(FooterCustomisationPlugin, self).init()
         self.connect(signals.plugin.template_hook, self.extend_footer, sender='page-footer')
-
-    @property
-    def default_settings(self):
-        return {
-            'footer_links': []
-        }
 
     def extend_footer(self, sender, **kwargs):
         for setting in self.settings.get('footer_links'):
