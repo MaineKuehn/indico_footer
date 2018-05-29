@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 ===================================================
-``indico_footer`` - Footer Customization for Indico
+``indico_footer`` - Footer Customisation for Indico
 ===================================================
 
 .. image:: https://readthedocs.org/projects/indico_footer/badge/?version=latest
@@ -29,7 +29,6 @@
 
     source/installation
     source/changelog
-    Module Index <source/api/modules>
 
 The :py:mod:`indico_footer` allows you to add custom links to the Indico footer.
 
@@ -78,13 +77,6 @@ This plugin is in no way endorsed, supported or provided by Indico or any other 
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
 ----------
 

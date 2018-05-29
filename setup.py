@@ -23,11 +23,6 @@ setup(
     packages=find_packages(),
     package_data={'indico_footer': ['templates/*.html']},
     install_requires=['indico>=2.0'],
-    extras_require={
-        'docs': [
-            'sphinx <= 1.5.6',
-        ],
-    },
     license='GPLv3+',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
