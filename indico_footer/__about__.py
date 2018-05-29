@@ -16,6 +16,7 @@
     :target: https://github.com/MaineKuehn/indico_footer/blob/master/LICENSE
 
 Plugin for the Indico event management system to customise the footer.
+For detailed information, see also the `official documentation <http://indico-footer.readthedocs.io/en/latest/>`_.
 
 Quick Guide
 -----------
@@ -26,7 +27,8 @@ To enable the plugin, it must be installed for the python version running ``indi
 
     python -m pip install indico_footer
 
-Once installed, it ...
+Once installed, it can be enabled in the Indico configuration.
+New footer elements can be added by configuring the plugin in the administrator settings.
 
 Disclaimer
 ----------
