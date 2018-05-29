@@ -43,14 +43,9 @@ class FooterCustomisationPlugin(IndicoPlugin):
         self.connect(signals.plugin.template_hook, self.extend_footer, sender='page-footer')
 
     def extend_footer(self, sender, **kwargs):
+        footer_elements = []
         for setting in self.settings.get('footer_links'):
-            try:
-                footer_elements.append("<a href='%s' target='%s'>&nbsp;%s&nbsp;</a>" % (
-                    setting.get('link'), setting.get('target'), setting.get('name')))
-            except NameError:
-                footer_elements = ["<a href='%s' target='%s'>%s&nbsp;</a>" % (
-                    setting.get('link'), setting.get('target'), setting.get('name'))]
-        try:
+            footer_elements.append("<a href='%s' target='%s'>&nbsp;%s&nbsp;</a>" % (
+                setting.get('link'), setting.get('target'), setting.get('name')))
+        if footer_elements:
             return True, 0, "</li><li>".join(footer_elements)
-        except NameError:
-            return None
