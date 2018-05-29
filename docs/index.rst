@@ -61,7 +61,7 @@ To enable the plugin, it must be installed for the python version running ``indi
 
     python -m pip install indico_footer
 
-Once installed, it can be enabled in the Indico configuration.
+Once installed, the plugin called ``custom_footer`` can be enabled in the Indico configuration.
 New footer elements can be added by configuring the plugin in the administrator settings.
 
 Contributing and Feedback
