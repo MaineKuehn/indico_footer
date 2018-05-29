@@ -28,6 +28,7 @@
     :caption: Subtopics Overview:
 
     source/installation
+    source/configuration
     source/changelog
 
 The :py:mod:`indico_footer` allows you to add custom links to the Indico footer.
