@@ -20,6 +20,7 @@ Core of the Footer Customisation Plugin
 
 The entry point for indico is the :py:class:`˜~.FooterCustomisationPlugin`.
 """
+from __future__ import unicode_literals
 from indico.core.plugins import IndicoPlugin
 
 from .forms import SettingsForm

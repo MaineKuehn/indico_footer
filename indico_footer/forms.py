@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 from indico.web.forms.base import IndicoForm
 
 from indico.web.forms.fields import MultipleItemsField
