@@ -29,6 +29,6 @@ Each link consists of three settings:
 **Target**
    Where to open the link: ``_self`` for the current window/tab or ``_blank`` for a new window/tab.
 
-You can configure them separately by hitting the pencil button next to them.
+You can configure each link separately by hitting the pencil button next to it.
 Note that changes to a link must stored individually by hitting the disk button.
-Only afterwards will their changes be added with the ``Save`` button.
+Only afterwards can changes be saved with the ``Save`` button.
