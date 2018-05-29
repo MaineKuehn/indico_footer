@@ -38,10 +38,10 @@ By default, the configuration is located in ``/opt/indico/etc/indico.conf``.
 
 .. code:: python
 
-    PLUGINS = {'indico_footer'}
+    PLUGINS = {'custom_footer'}
 
 Note that if you need multiple plugins, you must include them all in the set of ``PLUGINS``:
 
 .. code:: python
 
-    PLUGINS = {'payment_manual', 'payment_paypal', 'payment_sixpay', 'indico_footer'}
+    PLUGINS = {'payment_manual', 'payment_paypal', 'payment_sixpay', 'custom_footer'}
