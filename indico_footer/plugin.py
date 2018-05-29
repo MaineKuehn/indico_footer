@@ -20,7 +20,6 @@ Core of the Footer Customisation Plugin
 
 The entry point for indico is the :py:class:`˜~.FooterCustomisationPlugin`.
 """
-from indico.core import signals
 from indico.core.plugins import IndicoPlugin
 
 from .forms import SettingsForm
@@ -40,12 +39,12 @@ class FooterCustomisationPlugin(IndicoPlugin):
 
     def init(self):
         super(FooterCustomisationPlugin, self).init()
-        self.connect(signals.plugin.template_hook, self.extend_footer, sender='page-footer')
+        self.template_hook('page-footer', self.extend_footer)
 
-    def extend_footer(self, sender, **kwargs):
+    def extend_footer(self, **kwargs):
         footer_elements = []
         for setting in self.settings.get('footer_links'):
             footer_elements.append("<a href='%s' target='%s'>&nbsp;%s&nbsp;</a>" % (
                 setting.get('link'), setting.get('target'), setting.get('name')))
         if footer_elements:
-            return True, 0, "</li><li>".join(footer_elements)
+            return "</li><li>".join(footer_elements)
