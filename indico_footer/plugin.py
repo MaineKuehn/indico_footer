@@ -28,7 +28,7 @@ from .forms import SettingsForm
 
 class FooterCustomisationPlugin(IndicoPlugin):
     """
-    Footer Customisation Plugin
+    Footer Customisation
 
     A plugin to customise the Indico footer by appending links.
     """
