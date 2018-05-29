@@ -2,7 +2,7 @@ Configuration
 =============
 
 Once installed, the plugin can be configured from the ``Administration`` panel.
-From the main page, select ``Administration`` -> ``Plugins`` -> ``Footer Customization``.
+From the main page, select ``Administration`` -> ``Plugins`` -> ``Footer Customisation``.
 
 .. image:: images/configuration.png
     :alt: Example Configuration and Footer
