@@ -18,8 +18,7 @@ You can drag and drop entries to change their ordering.
 Configuring Links
 -----------------
 
-Each link consists of three settings.
-You can configure them separately.
+Each link consists of three settings:
 
 **Name**
    The link name as shown in the footer.
@@ -29,3 +28,7 @@ You can configure them separately.
 
 **Target**
    Where to open the link: ``_self`` for the current window/tab or ``_blank`` for a new window/tab.
+
+You can configure them separately by hitting the pencil button next to them.
+Note that changes to a link must stored individually by hitting the disk button.
+Only afterwards will their changes be added with the ``Save`` button.
