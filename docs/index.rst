@@ -11,9 +11,9 @@
     :target: http://indico_footer.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation
 
-.. image:: https://img.shields.io/pypi/v/indico_footer.svg
+.. image:: https://img.shields.io/pypi/v/indico-plugin-custom-footer.svg
     :alt: Available on PyPI
-    :target: https://pypi.python.org/pypi/indico_footer/
+    :target: https://pypi.python.org/pypi/indico-plugin-custom-footer/
 
 .. image:: https://img.shields.io/github/license/MaineKuehn/indico_footer.svg
     :alt: License
