@@ -2,9 +2,10 @@
 Changelog
 +++++++++
 
-v?.?.? -- 2018-05-30
+v2.0.0 -- 2018-05-30
 --------------------
 
+    * Initial release version for Indico 2.0
     * Renamed distribution, package and plugin to match Indico convention
     * Internal optimisations
 
