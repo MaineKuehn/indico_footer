@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-LIB_NAME=indico_footer
+LIB_NAME=indico_custom_footer
 DOCS_DIR=docs
 
 cd ${DOCS_DIR}

@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = python -msphinx
-SPHINXPROJ    = indico_footer
+SPHINXPROJ    = indico_custom_footer
 SOURCEDIR     = .
 BUILDDIR      = _build
 

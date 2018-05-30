@@ -9,7 +9,7 @@ Note that at least ``indico`` 2.0 is required, and will be installed automatical
 Installing the package
 ----------------------
 
-The ``indico_footer`` plugin must be installed for the python version running ``indico``.
+The ``indico_custom_footer`` plugin must be installed for the python version running ``indico``.
 With a standard indico installation, you must activate the indico python virtual environment first.
 
 .. code:: bash
@@ -22,13 +22,13 @@ You can directly install the module using ``pip``:
 
 .. code:: bash
 
-    pip install indico_footer
+    pip install indico-plugin-custom-footer
 
 This can also be used to upgrade to a newer version:
 
 .. code:: bash
 
-    pip install indico_footer --upgrade
+    pip install indico-plugin-custom-footer --upgrade
 
 Enabling the package
 --------------------

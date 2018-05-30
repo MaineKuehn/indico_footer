@@ -9,7 +9,7 @@ if "%SPHINXBUILD%" == "" (
 )
 set SOURCEDIR=.
 set BUILDDIR=_build
-set SPHINXPROJ=indico_footer
+set SPHINXPROJ=indico_custom_footer
 
 if "%1" == "" goto help
 

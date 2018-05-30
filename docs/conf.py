@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# indico_footer documentation build configuration file, created by
+# indico_custom_footer documentation build configuration file, created by
 # sphinx-quickstart on Mon May 28 21:45:19 2018.
 #
 # This file is execfile()d with the current directory set to its
@@ -20,7 +20,7 @@
 import os
 import sys
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from indico_footer import __about__
+from indico_custom_footer import __about__
 
 
 # -- General configuration ------------------------------------------------
@@ -103,7 +103,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'indico_footerdoc'
+htmlhelp_basename = 'indico_custom_footerdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -130,7 +130,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'indico_footer.tex', 'indico\\_footer Documentation',
+    (master_doc, 'indico_custom_footer.tex', 'indico\\_footer Documentation',
      '\\_\\_author\\_\\_', 'manual'),
 ]
 
@@ -140,7 +140,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'indico_footer', 'indico_footer Documentation',
+    (master_doc, 'indico_custom_footer', 'indico_custom_footer Documentation',
      [author], 1)
 ]
 
@@ -151,8 +151,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'indico_footer', 'indico_footer Documentation',
-     author, 'indico_footer', 'One line description of project.',
+    (master_doc, 'indico_custom_footer', 'indico_custom_footer Documentation',
+     author, 'indico_custom_footer', 'One line description of project.',
      'Miscellaneous'),
 ]
 

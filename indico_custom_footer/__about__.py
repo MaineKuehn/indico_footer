@@ -17,7 +17,7 @@
 # along with Indico Footer Customisation Plugin;if not, see <http://www.gnu.org/licenses/>.
 """
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-``indico_footer`` - Footer Customisation Plugin for Indico
+``indico_custom_footer`` - Footer Customisation Plugin for Indico
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. image:: https://readthedocs.org/projects/indico_footer/badge/?version=latest
@@ -42,7 +42,7 @@ To enable the plugin, it must be installed for the python version running ``indi
 
 .. code:: bash
 
-    python -m pip install indico_footer
+    python -m pip install indico-plugin-custom-footer
 
 Once installed, it can be enabled in the Indico configuration.
 New footer elements can be added by configuring the plugin in the administrator settings.
@@ -58,7 +58,7 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMA
 ACTION OF CONTRACT, ORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 """
-__title__ = 'indico_footer'
+__title__ = 'indico-plugin-custom-footer'
 __summary__ = 'Indico Footer Customisation Plugin'
 __url__ = 'https://github.com/MaineKuehn/indico_footer'
 

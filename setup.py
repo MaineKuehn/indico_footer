@@ -21,7 +21,7 @@ from setuptools import setup, find_packages
 repo_base_dir = os.path.abspath(os.path.dirname(__file__))
 # pull in the packages metadata
 package_about = {}
-with open(os.path.join(repo_base_dir, "indico_footer", "__about__.py")) as about_file:
+with open(os.path.join(repo_base_dir, "indico_custom_footer", "__about__.py")) as about_file:
     exec(about_file.read(), package_about)
 
 setup(
@@ -34,7 +34,7 @@ setup(
     url=package_about['__url__'],
     entry_points={
         'indico.plugins': {
-            'custom_footer = indico_footer.plugin:FooterCustomisationPlugin'
+            'custom_footer = indico_custom_footer.plugin:FooterCustomisationPlugin'
         }
     },
     packages=find_packages(),

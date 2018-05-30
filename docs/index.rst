@@ -1,11 +1,11 @@
-.. indico_footer documentation master file, created by
+.. indico_custom_footer documentation master file, created by
    sphinx-quickstart on Mon May 28 21:45:19 2018.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-===================================================
-``indico_footer`` - Footer Customisation for Indico
-===================================================
+==========================================================
+``indico_custom_footer`` - Footer Customisation for Indico
+==========================================================
 
 .. image:: https://readthedocs.org/projects/indico_footer/badge/?version=latest
     :target: http://indico_footer.readthedocs.io/en/latest/?badge=latest
@@ -31,7 +31,7 @@
     source/configuration
     source/changelog
 
-The :py:mod:`indico_footer` allows you to add custom links to the Indico footer.
+The :py:mod:`indico_custom_footer` allows you to add custom links to the Indico footer.
 
 Overview
 --------
@@ -59,7 +59,7 @@ To enable the plugin, it must be installed for the python version running ``indi
 
 .. code:: bash
 
-    python -m pip install indico_footer
+    python -m pip install indico-plugin-custom-footer
 
 Once installed, the plugin called ``custom_footer`` can be enabled in the Indico configuration.
 New footer elements can be added by configuring the plugin in the administrator settings.
@@ -85,4 +85,4 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMA
    :target: https://github.com/MaineKuehn/indico_footer/issues
    :alt: Open Issues
 
-Documentation built from ``indico_footer`` |version| at |today|.
+Documentation built from ``indico_custom_footer`` |version| at |today|.
