@@ -19,7 +19,7 @@
     :alt: License
     :target: https://github.com/MaineKuehn/indico_footer/blob/master/LICENSE
 
-.. image:: https://img.shields.io/github/commits-since/MaineKuehn/indico_footer/v1.0.0.svg
+.. image:: https://img.shields.io/github/commits-since/MaineKuehn/indico_footer/v2.0.1.svg
     :alt: Repository
     :target: https://github.com/MaineKuehn/indico_footer/tree/master
 
