@@ -53,6 +53,6 @@ setup(
         'Topic :: Communications :: Conferencing',
         'Topic :: Internet :: WWW/HTTP :: WSGI :: Application',
     ],
-    zip_safe=False,
+    zip_safe=True,
     keywords=package_about['__keywords__'],
 )
