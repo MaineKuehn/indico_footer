@@ -16,9 +16,9 @@
 # You should have received a copy of the GNU General Public License
 # along with Indico Footer Customisation Plugin;if not, see <http://www.gnu.org/licenses/>.
 """
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ``indico_custom_footer`` - Footer Customisation Plugin for Indico
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. image:: https://readthedocs.org/projects/indico_footer/badge/?version=latest
     :target: http://indico-footer.readthedocs.io/en/latest/?badge=latest
