@@ -26,9 +26,12 @@ from .utility import gettext as _
 
 def custom_string_validation(value):
     """
-    :param value:
-    :raises ValueError
-    :return:
+    Test that a string is valid for insertion into the Plugin placeholders
+
+    :param value: string to validate
+    :type value: str
+    :raises ValueError: if ``value`` is not valid
+    :return: valid form of ``value``
     """
     if value != escape(value):
         raise ValueError

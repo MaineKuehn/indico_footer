@@ -6,6 +6,7 @@ v?.?.? -- 2018-05-30
 --------------------
 
     * Renamed distribution, package and plugin to match Indico convention
+    * Internal optimisations
 
 v1.0.0 -- 2018-05-29
 --------------------
