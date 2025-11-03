@@ -19,7 +19,7 @@ from __future__ import unicode_literals
 from indico.web.forms.base import IndicoForm
 
 from indico.web.forms.fields import MultipleItemsField
-from flask import escape
+from markupsafe import escape
 
 from .utility import gettext as _
 
