@@ -38,7 +38,7 @@ setup(
         }
     },
     packages=find_packages(),
-    install_requires=['indico>=2.0'],
+    install_requires=['indico>=2.0', 'markupsafe>=2.1.5'],
     license='GPLv3+',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
