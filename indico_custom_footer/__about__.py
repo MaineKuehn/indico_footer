@@ -62,8 +62,8 @@ __title__ = 'indico-plugin-custom-footer'
 __summary__ = 'Indico Footer Customisation Plugin'
 __url__ = 'https://github.com/MaineKuehn/indico_footer'
 
-__version__ = '2.0.1'
+__version__ = '3.3.0'
 __author__ = 'Eileen Kuehn, Max Fischer'
 __email__ = 'eileen.kuehn@kit.edu'
-__copyright__ = '2018 %s' % __author__
+__copyright__ = '2018 - 2026 %s' % __author__
 __keywords__ = 'indico customisation footer html plugin'
